@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="icon" type="image/x-icon" href="coins-solid.ico">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <h1>Conversor de Moedas <i class="fa-solid fa-coins"></i></h1>
+
+    <div class="conversor-container">
+        <input type="number" id="valor" min="0" step="0.01" placeholder="Adicione um valor">
+        <br>
+        <label for="de">De
+        <select id="de"></select></label>
+        <br>
+        <button id="trocar-moedas"><i  class="fa-solid fa-rotate"></i></button>
+
+        <br>
+        <label for="para">Para
+        <select id="para"></select></label>
+        <button id="converter">Converter</button>
+        <div id="resultado"></div>
+    </div>
+
+    <footer>
+        <p>&copy; <script>document.write(new Date().getFullYear());</script> - Desenvolvido por <a href="https://gabiqss.github.io/portfolio/" target="_blank">Gabriela Queiroz</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
