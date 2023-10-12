@@ -7,21 +7,6 @@ body {
     max-height: fit-content;
 }
 
-@media screen and (max-width: 600px) {
-    body {
-        font-size: 14px; /* Tamanho de fonte menor para telas pequenas */
-        max-height: fit-content;
-    }
-
-    .conversor-container {
-        max-width: 90%; /* Reduz a largura máxima para telas pequenas */
-    }
-
-    #valor, #de, #para, #resultado {
-        width: 100%; /* Faz com que os inputs e resultados ocupem toda a largura disponível */
-    }
-}
-
 
 h1 {
     margin-bottom: 20px;
