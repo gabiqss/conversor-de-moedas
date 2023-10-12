@@ -3,7 +3,24 @@ body {
     text-align: center;
     justify-content: center;
     margin: 20px;
+    max-width: fit-content;
+    margin-left: 37%;
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Tamanho de fonte menor para telas pequenas */
+    }
+
+    .conversor-container {
+        max-width: 90%; /* Reduz a largura máxima para telas pequenas */
+    }
+
+    #valor, #de, #para, #resultado {
+        width: 100%; /* Faz com que os inputs e resultados ocupem toda a largura disponível */
+    }
+}
+
 
 h1 {
     margin-bottom: 20px;
