@@ -12,8 +12,10 @@
 <body>
     <h1>Conversor de Moedas <i class="fa-solid fa-coins"></i></h1>
     
+    
 
     <div class="conversor-container">
+        <p>&copy; <script>document.write(new Date().getFullYear());</script> - Desenvolvido por <a href="https://gabrieladev.vercel.app/" target="_blank">Gabriela Queiroz</a></p>
         <input type="number" id="valor" min="0" step="0.01" placeholder="Adicione um valor">
         <br>
         <label for="de">De
@@ -27,10 +29,6 @@
         <button id="converter">Converter</button>
         <div id="resultado"></div>
     </div>
-    <footer class="pt-br">
-        <p>&copy; <script>document.write(new Date().getFullYear());</script> - Desenvolvido por <a href="https://gabrieladev.vercel.app/" target="_blank">Gabriela Queiroz</a></p>
-        
-    </footer>
     <script src="script.js"></script>
 </body>
 
