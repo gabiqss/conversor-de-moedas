@@ -4,12 +4,13 @@ body {
     justify-content: center;
     margin: 20px;
     max-width: fit-content;
-    margin-left: 37%;
+    max-height: fit-content;
 }
 
 @media screen and (max-width: 600px) {
     body {
         font-size: 14px; /* Tamanho de fonte menor para telas pequenas */
+        max-height: fit-content;
     }
 
     .conversor-container {
@@ -140,7 +141,8 @@ footer {
     border-radius: 10px;
     background-color: #333333;
     color: #fff;
-    position: fixed;
+    display: flex;
+    bottom: 100%;
 }
 
 footer a {
@@ -157,7 +159,7 @@ footer a::after {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #ffffff; /* Cor do sublinhado */
+    background-color: #ff25ac; /* Cor do sublinhado */
     transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.3s ease, background-color 0.3s ease;
@@ -168,5 +170,5 @@ footer a:hover::after {
     transform-origin: bottom left;
 }
 footer a:hover {
-    color: #ffffff; /* Altere a cor conforme desejado */
+    color: #ff25ac; /* Altere a cor conforme desejado */
 }
