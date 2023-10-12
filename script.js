@@ -10,7 +10,7 @@ function converter() {
 
     // Verifica se o valor é um número válido
     if (isNaN(valor)) {
-        resultadoDiv.innerText = 'Coloque algum valor no primeiro campo.';
+        resultadoDiv.innerText = 'Oii, coloca algum valor em cima!';
         return;
     }
 
